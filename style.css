@@ -42,10 +42,112 @@ header{
     height: 80vh;
     background-image: url(images/desktop/image-header.jpg);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
+.logo-menu-wraper{
+    width: 100%;
+}
 
+.logo{
+    width: 50%;
+    float: left;
+    padding: 20px 0 20px 20px;
+    margin-top: 10px;
+}
+
+.menu-desktop{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+.menu-desktop ul{
+    list-style-type: none;
+    float: right;
+}
+
+.menu-desktop ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.menu-desktop ul li:hover{
+    background-color: rgba(255, 255, 255, 0.288) !important;
+    border-radius: 40px;
+}
+
+.menu-desktop ul li:hover a{
+    color: white !important;
+}
+
+.menu-desktop ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--Barlow);
+}
+
+.title-text{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title-text{
+    color: white;
+    font-size: 28px;
+    font-family: var(--Fraunces);
+    letter-spacing: 10px;
+}
+
+.arrow-down{
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+section.mosaico{
+    width: 100%;
+}
+
+section.mosaico > .mosaico1,
+.mosaico2,
+.mosaico3{
+    display: flex;
+}
+
+.w50{
+    width: 50%;
+}
+
+.mosaico1 > .img-mosaico1 > img{
+    width: 100%;
+    max-height: 600px;
+}
+
+.mosaico2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mosaico2 > .img-mosaico2 > img{
+    width: 100%;
+    max-height: 600px;
+}
+
+.mosaico3 > .img-mosaico3{
+    height: 600px;
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mosaico3 > .img-mosaico4{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-size: 100% 100%;
+}
 
 
 
