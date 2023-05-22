@@ -292,7 +292,6 @@ section.testemonials{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 2%;
 }
 
 section.testemonials > .title-testemonials{
@@ -326,8 +325,86 @@ section.testemonials > .client-wraper > .client-single > .coment{
 }
 
 section.testemonials > .client-wraper > .client-single > .coment > p{
-    max-width: 280px;
+    max-width: 290px;
     margin: 0 auto;
     font-family: var(--Barlow);
     color: var(--dark_grayish_blue);
+}
+
+section.testemonials > .client-wraper > .client-single > .client-name{
+    margin-top: 40px;
+}
+
+section.testemonials > .client-wraper > .client-single > .client-name > .name{
+    font-family: var(--Fraunces);
+    font-weight: 900;
+}
+
+section.testemonials > .client-wraper > .client-single > .client-name > .function{
+    margin-top: 10px;
+    color: var(--grayish_blue);
+    display: block;
+    font-family: var(--Barlow);
+    font-size: 14px;
+}
+
+section.gallery{
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+}
+
+section.gallery > .photos-single{
+    width: 25%;
+}
+
+section.gallery > .photos-single > img{
+    width: 100%;
+}
+
+footer{
+    background-color: #8AD2C4;
+    width: 100%;
+    text-align: center;
+}
+
+footer > h3{
+    padding-top: 50px;
+    color: var(--dark_desaturated_cyan);
+    font-family: var(--Fraunces);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+footer > .nav-footer{
+    margin-top: 30px;
+}
+
+footer > .nav-footer > a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--dark_desaturated_cyan);
+}
+
+footer > .nav-footer > a:hover{
+    color: white;
+}
+
+footer > .social{
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+footer > .social > a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+ 
+footer > .social > a > i{
+    font-size: 24px;
+    color: var(--dark_desaturated_cyan);
+}
+
+footer > .social > a > i:hover{
+    color: white;
 }
