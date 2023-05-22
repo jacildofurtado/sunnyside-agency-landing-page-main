@@ -89,6 +89,10 @@ header{
     font-family: var(--Barlow);
 }
 
+.menu-mobile > .btn-menu{
+    display: none;
+}
+
 .title-text{
     width: 100%;
     text-align: center;
@@ -407,4 +411,89 @@ footer > .social > a > i{
 
 footer > .social > a > i:hover{
     color: white;
+}
+
+@media screen and (max-width: 1014px){
+    header{
+        height: 60vh;
+    }
+    
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile > ul{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        text-align: center;
+        list-style-type: none;
+        background-color: white;
+        width: 80%;
+    }
+
+    .menu-mobile > ul > li{
+        padding: 20px 0;
+    }
+
+    .menu-mobile > ul > li > a{
+        text-decoration: none;
+        font-family: var(--Barlow);
+    }
+
+    .menu-mobile > .btn-menu{
+        display: block;
+        position: absolute;
+        top: 33px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .arrow-down{
+        margin-top: 50px;
+    }
+
+    section.mosaico > .mosaico1,
+    .mosaico2,
+    .mosaico3 {
+        flex-direction: column-reverse;
+    }
+
+    .w50{
+        width: 100%;
+    }
+
+    .mosaico1 > .text1 > .text-wraper{
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    .mosaico2 > .text2 > .text-wraper{
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    section.testemonials > .client-wraper{
+        display: block;
+    }
+
+    section.testemonials > .client-wraper > .client-single{
+        margin-top: 50px;
+    }
+
+    .w33{
+        width: 100%;
+    }
+
+    section.gallery{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    section.gallery > .photos-single{
+        width: 50%;
+    }
 }
